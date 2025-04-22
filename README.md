@@ -79,7 +79,9 @@ pip install -r requirements.txt
 ### Data Preparation
 
 Generate graph representations from .bench files
+```
 python scripts/generate_graphs.py --bench_dir data/bench_files --output_dir data/graphs
+```
 
 
 ### Training Models
