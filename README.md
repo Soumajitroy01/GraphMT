@@ -113,4 +113,3 @@ Our experiments show that:
 1. The LSOformer architecture outperforms traditional models on all QoR metrics
 2. Among traditional models, the combination of GraphSAGE and Transformer achieves the best results
 3. Level-aware processing significantly improves prediction accuracy
-# GraphMT
