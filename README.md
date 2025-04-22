@@ -8,34 +8,32 @@ This repository contains a comprehensive framework for predicting Quality of Res
 
 ## Repository Structure
 
-qor_prediction_framework/
-├── traditional_models/ # GNN, Transformer, LSTM, CNN implementations
-│ ├── README.md
-│ ├── data/
-│ ├── models/
-│ ├── utils/
-│ ├── train.py
-│ └── inference.py
-├── lsoformer/ # Novel LSOformer architecture
-│ ├── README.md
-│ ├── data/
-│ ├── models/
-│ ├── utils/
-│ ├── train.py
-│ └── inference.py
-├── scripts/ # Utility scripts
-│ ├── generate_graphs.py
-│ ├── generate_tables.py
-│ └── train_all_models.sh
-├── data/ # Shared datasets
-│ ├── bench_files/
-│ ├── graphs/
-│ ├── results.csv
-│ └── test_results.csv
-├── requirements.txt
-└── README.md
-
-text
+qor_prediction_framework/\
+├── traditional_models/ # GNN, Transformer, LSTM, CNN implementations\
+│ ├── README.md\
+│ ├── data/\
+│ ├── models/\
+│ ├── utils/\
+│ ├── train.py\
+│ └── inference.py\
+├── lsoformer/ # LSOformer architecture\
+│ ├── README.md\
+│ ├── data/\
+│ ├── models/\
+│ ├── utils/\
+│ ├── train.py\
+│ └── inference.py\
+├── scripts/ # Utility scripts\
+│ ├── generate_graphs.py\
+│ ├── generate_tables.py\
+│ └── train_all_models.sh\
+├── data/ # Shared datasets\
+│ ├── bench_files/\
+│ ├── graphs/\
+│ ├── results.csv\
+│ └── test_results.csv\
+├── requirements.txt\
+└── README.md\
 
 ## Overview of Approaches
 
@@ -72,19 +70,17 @@ This architecture is specifically designed for the logic synthesis domain and ou
 ## Getting Started
 
 ### Installation
-
+```terminal
 git clone https://github.com/username/qor_prediction_framework.git
 cd qor_prediction_framework
 pip install -r requirements.txt
-
-text
+```
 
 ### Data Preparation
 
 Generate graph representations from .bench files
 python scripts/generate_graphs.py --bench_dir data/bench_files --output_dir data/graphs
 
-text
 
 ### Training Models
 
@@ -97,14 +93,12 @@ python lsoformer/train.py --csv_file data/results.csv --graph_dir data/graphs --
 Train all models
 bash scripts/train_all_models.sh
 
-text
 
 ### Evaluation
 
 Generate comparison tables
 python scripts/generate_tables.py --results_dir output --output_file output/comparison_tables.md
 
-text
 
 ## Results
 
