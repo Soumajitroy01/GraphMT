@@ -85,19 +85,27 @@ python scripts/generate_graphs.py --bench_dir data/bench_files --output_dir data
 ### Training Models
 
 Train a specific model
+```
 python traditional_models/train.py --csv_file data/results.csv --graph_dir data/graphs --output_dir output --gnn_type graphsage --recipe_type transformer --target nodes
+```
 
 Train LSOformer
+```
 python lsoformer/train.py --csv_file data/results.csv --graph_dir data/graphs --output_dir output/lsoformer --target nodes
+```
 
 Train all models
+```
 bash scripts/train_all_models.sh
+```
 
 
 ### Evaluation
 
 Generate comparison tables
+```
 python scripts/generate_tables.py --results_dir output --output_file output/comparison_tables.md
+```
 
 
 ## Results
