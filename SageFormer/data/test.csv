@@ -1,0 +1,2 @@
+design,recipe,nodes,levels,iterations
+aes_secworks_orig.bench,"rs -K 8;rw;rs -K 14 -N 3;rs -K 14 -N 3;rw;rs -K 6 -N 1;rfz;rs -K 14 -N 1;rwz;rs -K 16 -N 2;rs -K 8 -N 1;rs -K 14;rs -K 4;rfz;rfz;rs -K 6 -N 3; rwz -l;b",30489,35,0

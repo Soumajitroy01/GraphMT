@@ -1,0 +1,1 @@
+python train.py --csv_file data/results.csv --graph_dir data/graphs --output_dir output --gnn_type graphsage --recipe_type transformer --target levels --batch_size 1 --epochs 100 --lr 0.001 --loss_type mse
