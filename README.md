@@ -7,7 +7,7 @@ This repository contains a comprehensive framework for predicting Quality of Res
 ![Architecture Overview](images/architecture.jpg)
 
 ## Repository Structure
-
+```
 qor_prediction_framework/\
 ├── traditional_models/ # GNN, Transformer, LSTM, CNN implementations\
 │ ├── README.md\
@@ -34,6 +34,7 @@ qor_prediction_framework/\
 │ └── test_results.csv\
 ├── requirements.txt\
 └── README.md\
+```
 
 ## Overview of Approaches
 
