@@ -1,0 +1,1 @@
+python inference.py --csv_file data/results_finetune.csv --graph_dir data/graphs --output_dir output/inference1 --model_path output/graphsage_transformer_levels/best_model.pt --gnn_type graphsage --recipe_type transformer --target levels --batch_size 1

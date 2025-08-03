@@ -1,0 +1,7 @@
+timestamp: 20250422_153958
+hidden_dim: 32
+transformer_dim: 64
+num_heads: 8
+num_layers: 6
+batch_size: 1
+learning_rate: 0.001

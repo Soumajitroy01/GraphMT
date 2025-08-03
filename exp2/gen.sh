@@ -1,0 +1,1 @@
+python main.py --input bench_files --output bench_files --format pt --workers 8
